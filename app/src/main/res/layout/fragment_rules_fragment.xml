@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nagajothy.smazee.praestantia.Paper_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#fff"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Some Genral Rules "
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="\n1. Please come in Formal Dress Code\n
+2. Use Sairam College Bus on the Event Day\n
+3. It's Mandatory to Bring your College ID-Card\n
+4. Lunch Will be Provided Here.\n
+5. For More Updates Check our Website\n
+"
+                    android:textColor="#222"
+
+                    android:textSize="18dp" />
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#fff"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Praestantia 2K16"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="\n1. Register in Our Website and use the Praestantia ID for further Reference
+                    \n2 . Any Queries Contact our Co-ordinators or Drop a mail to team@praestantia.in
+                    \n3 . Thank you For Downloading The Application ! Feel the Tech !!"
+                    android:textColor="#222"
+
+                    android:textSize="18dp" />
+
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

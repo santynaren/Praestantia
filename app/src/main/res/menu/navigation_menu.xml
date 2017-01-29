@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"/>
+    <item
+        android:title="Our Legacy">
+<menu>
+    <item
+
+        android:id="@+id/home_view"
+        android:icon="@drawable/home"
+
+        android:title="Home">
+
+    </item>
+<item
+    android:id="@+id/about"
+    android:icon="@drawable/conference"
+
+    android:title="About Us">
+
+</item>
+    <item
+        android:id="@+id/professors"
+        android:icon="@drawable/flex_biceps"
+        android:title="Our Strength">
+
+    </item>
+    <item
+        android:id="@+id/praestantia"
+        android:icon="@drawable/praestantia"
+        android:title="About Praestantia">
+
+    </item>
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/phone"
+        android:title="Contact ">
+
+    </item>
+
+
+</menu>
+        </item>
+
+
+    <item
+        android:title="Genral Info ">
+    <menu>
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/trophy"
+            android:title="Events">
+
+        </item>
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/form"
+            android:title="Register Here">
+
+        </item>
+        <item
+            android:id="@+id/bus_routes"
+            android:icon="@drawable/shuttle"
+            android:title="Bus Routes">
+
+        </item>
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/facebook"
+            android:title="Like us on Facebook">
+
+        </item>
+        <item
+            android:id="@+id/web"
+            android:icon="@drawable/web"
+            android:title="Website">
+
+        </item>
+
+
+    </menu>
+
+
+</item>
+
+</menu>

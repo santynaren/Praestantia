@@ -1,0 +1,211 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nagajothy.smazee.praestantia.Paper_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+
+
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+
+        android:layout_margin="8dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/ppt_image" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/thumbnail"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="Paper Presentation"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+
+                android:padding="8dp"
+                android:text="You can have brilliant ideas but if you cannot get them across ,your ideas will go nowhere Have a research paper waiting to be unleashed on the world of intellectuals? Is your work still waiting to be appraised? Here we provide the platform for the deserving mind on an ever rising and never ending growth to expose your in depth knowledge! Come present your ingenious ideas! After all, the best designs of today's technology started as mere blue prints.
+            Note : The Paper should be in IEEE Format .
+            Last Date for Paper Submission is : 19.08.2016"
+                android:textColor="#111"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#fff"
+        card_view:cardCornerRadius="4dp"
+        android:layout_margin="8dp">
+
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="8dp"
+            android:text="Topics : "
+            android:textColor="#222"
+            android:textStyle="bold"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="8dp"
+            android:text="\n1. Digital image processing\n
+2. Network security\n
+3. Polymer LED\n
+4. Internet of things\n
+5. Wearable devices or gadgets\n
+6. Short antenna\n"
+            android:textColor="#222"
+
+            android:textSize="18dp" />
+
+
+
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="8dp">
+
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                android:text="Paper Submission : "
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                android:text="\n1.	Working Models, Samples Fetch You Extra Points.
+\n2.	Participants should submit the soft copy of the full paper in IEEE format.
+\n3.	(abstract alone will not be accepted) and email to praestantia16@sairamit.edu.in
+\n4.	Paper should be submitted as a MS word document (.doc) or pdf document.
+\n5.	Bring your Soft Copies in CD or Pen drive.
+\n6.	Paper should not exceed eight pages.
+\n7.	Details of the team members: Praestantia ID, Name, Department, E-Mail ID, Contact number, Institution name should be sent along with the Paper.
+\n8.	Deadline for submission: On or before 19.08.2016"
+                android:textColor="#222"
+
+                android:textSize="18dp" />
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="8dp">
+
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                android:text="Rules"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                android:text="\n1.	Candidates should send their paper in soft copy to our mail id.
+\n2.	Spot entries are not allowed.
+\n3.	Accepted papers will be intimated through their respective mail.id
+\n4.	The presentation time is for 8 mins and queries for 2 mins for each paper.
+\n5.	Selected candidates should bring their identity card at the time of presentation.
+\n6.	Only LCD projectors will be provided."
+                android:textColor="#222"
+
+                android:textSize="18dp" />
+
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

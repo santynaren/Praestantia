@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nagajothy.smazee.praestantia.Paper_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+
+
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="4dp"
+
+                android:layout_margin="8dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/thumbnail"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+
+                        android:src="@drawable/event_connexions" />
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/thumbnail"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Technical Connexions"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:padding="8dp"
+                        android:text="Across 496 colleges in TamilNadu, Connections event of our college is widely acclaimed by every masses across the state with handful of awards like 'Best event', 'Best entertainer' and now we are proud to say that we are into the top league of urban sympo UNESCO recognition. Goosebumps! That’s too much of fiction isn’t it? And for those who still didn't get the spark of event description, this is exactly for you, because we assure you that this event won't be as complex as you just read! Walk in... Feel real....and most importantly stay chained... oops Connected!"
+                        android:textColor="#111"
+                        android:textSize="18dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#fff"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Event Format"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="The Event Consists Of Three Rounds
+Two Participants per team
+Judges decision is Final"
+                    android:textColor="#222"
+
+                    android:textSize="18dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

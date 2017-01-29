@@ -1,0 +1,1079 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.nagajothy.smazee.praestantia.Teachers_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
+                android:text="Our Supporters"/>
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/card_view"
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Dr.G.THAMARAI SELVI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingTop="45dp"
+                    android:paddingLeft="5dp"
+                    android:text="Head Of The Department"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Dr.S.RAJARAJAN"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr.G.SARAVANAN"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr.P.SARAVANAN"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.S.DEIVANAYAGI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr.RAMAPRASAD MAHARANA"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.G.VALARMATHI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.SU.SUGANTHI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.D.PUSHGARA RANI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr.V.NARASIMMAN"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.P.RAJESHWARI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr.A.RAVINDIRAN"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.V.SUBASHINI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="R.LAKSHMI DEVI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.G.SARITHA"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr.N.ORAL ROBERTS"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.K.SUMATHI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.K.SANGEETHA"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.G.P.BHARATHI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.R.JANAKI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.J.SATHIYABAMA"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr.S.PRASATH KUMAR"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="S.SWEETLINE SHAMINI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.K.SIVASANKARI"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms SOORYA"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textSize="24sp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Our Practical Don"/>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms.Thayammal"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr.Rangesh"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms. Rajeswari"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Ms. Bhuvaneshwari"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr. Jagan"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr. P.Anandhan"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr. Lazer"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:background="#F1D302"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#F1D302"
+                card_view:cardCornerRadius="4dp"
+                android:layout_margin="8dp">
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="8dp"
+                    android:text="Mr. Jeejay"
+                    android:textColor="#222"
+                    android:textStyle="bold"
+                    android:textSize="22dp" />
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

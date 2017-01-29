@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Praestantia</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ece_desc">We the Electronics Engineer are every where !!! Making Automation , Communication easy and nourshing the growth of Future Technology . The same Aim and Energy is with us at SIT ECE Department Thriving each day to turn impossible to possible .</string>
+    <string name="praestantia_desc"></string>
+    <string name="ieee_desc"></string>
+    <string name="botrace_desc">The Line follower robot is a mobile machine that can detect and follow the line drawn on the floor. Generally, the path is predefined and can be visible like a black line on a white surface with a high contrasted colour .Participants should have to complete the paths as per rules and regulation.</string>
+    <string name="ff_desc">Are you a tech genious???? Wanna reveal your technical talents??? Here is a massive oppurtunity waiting for you to shine like a star!! Then why do you stall? Get ready with your human RAM. Your event is on its way!</string>
+    <string name="tc_desc"></string>
+    <string name="ppt_desc"></string>
+    <string name="kt_desc"></string>
+<string name="bot_format">\n1. General Requirements
+\n1.1. Size and Weight Limits
+\nDimensional and weight limits for robots shall be strictly enforced. Robots must have passed inspection prior to competing.
+\n1.2. Course Time
+\nTime is measured from the start signal until the time it crosses the finish line. A robot is deemed to have crossed the line when the forward most part of the robot contacts or crosses over the line.
+\n1.3. Time Limit
+\n1.4. Timekeeping
+\nTime shall be measured by an electronic gate system or by a judge with a stopwatch, based on the availability of equipment. In either case the recorded time shall be final.
+\n1.5. Autonomous Control
+\nOnce a robot has crossed the starting line it must remain fully autonomous, or it will be disqualified.
+\n1.6. Arena Edges
+\nIf a robot that wanders off of the arena surface there will be increment in the time of 5sec.Upto 3 interventions are allowed.After 3 interventions the bot will be disqualified
+\n1.7. Losing the Line
+\nAny robot that loses the line course must reacquire the line at the point where it was lost, or at any earlier (e.g. already traversed) point.
+\n1.8. Course Specifications
+\nThe line following course shall traverse a white rectangle. The line shall be black, 15 mm wide. There shall be a starting area at the beginning of the course and an exit area at the end. The line course starts inside the starting area and ends inside the exit area. The start and end points of the line course shall be clearly marked via a transverse line. There shall be a 10 cm gap in the starting and finishing lines where the line course passes through them.
+\nCharacteristics of the line course:
+\nA. There shall be crossovers (e.g. places where the line crosses itself)
+\nB. Switchbacks and hairpins are possible, but the adjacent sections of the line shall be no closer together than 15cm when measured from the center of each line.
+\nC. The closest approach of the line course to the edges of the arena shall be no less than 15cm, measured from the center of the line.
+\nD. The minimal curve radius is 15 cm.
+\nE. Sharp angles may occur, but smaller than 90 degrees may also occur
+\n1.9. Power of Officials
+\nThe decisions of all officials regarding these rules and the conduct of the event shall be final.
+\nNote:
+\nAll rules subject to change without notice.</string>
+
+    <string-array name="teacher_list">
+        <item>	Dr.S.RAJARAJAN</item>
+        <item>Mr.G.SARAVANAN</item>
+        <item>Mr.P.SARAVANAN</item>
+        <item>Ms.S.DEIVANAYAGI</item>
+        <item>Mr.RAMAPRASAD MAHARANA</item>
+        <item>Ms.G.VALARMATHI</item>
+        <item>Ms.J.VIJAYALAKSHMI</item>
+        <item>Ms.SU.SUGANTHI</item>
+        <item>Ms.D.PUSHGARA RANI</item>
+        <item>Mr.V.NARASIMMAN</item>
+        <item>Ms.P.RAJESHWARI</item>
+        <item>Mr.A.RAVINDIRAN</item>
+        <item>Ms.V.SUBASHINI</item>
+        <item>R.LAKSHMI DEVI</item>
+        <item>G.SARITHA</item>
+        <item>Mr.N.ORAL ROBERTS</item>
+        <item>Ms.K.SUMATHI</item>
+        <item>Ms.K.SANGEETHA</item>
+        <item>Ms.G.P.BHARATHI</item>
+        <item>Ms.N.RAJESWARI</item>
+        <item>Ms.R.JANAKI</item>
+        <item>Ms.J.SATHIYABAMA</item>
+        <item>Ms.P.RAJESWARI</item>
+        <item>Ms.R.PAVITHRA</item>
+        <item>Ms.S.SURYA</item>
+        <item>Ms.K.SIVASANKARI</item>
+        <item>Mr.S.PRASATH KUMAR</item>
+        <item>S.SWEETLINE SHAMINI</item>
+
+    </string-array>
+</resources>
